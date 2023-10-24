@@ -20,13 +20,4 @@ The dataset used for this project is "insurance.csv," which contains information
 
 ## Model Performance
 
-After training and evaluating the predictive model, I achieved the following performance results:
-
-- **MSE (Mean Squared Error)**: 1.3593
-- **R2 (Coefficient of Determination)**: 0.999999986
-- **MAE (Mean Absolute Error)**: 0.9430
-- **RMSE (Root Mean Squared Error)**: 1.1658
-- **Explained Variance**: 0.9999999865
-
-These performance metrics indicate that the model provides highly accurate predictions with minimal errors. The R2 score close to 1 suggests that the model explains the variability in the data exceptionally well. The low values of MAE, RMSE, and MSE further confirm the model's strong predictive capabilities.
-
+The selected model is trained on the data and tested on a hold-out test set. Metrics such as Mean Absolute Error (MAE), Mean Squared Error (MSE), Root Mean Squared Error (RMSE), and R-squared (R2) are calculated to evaluate the model's performance.
